@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="screen">0</section>
+      <section class="calc-rows">
+        <div class="row1"></div>
+        <div class="row2"></div>
+        <div class="row3"></div>
+        <div class="row4"></div>
+        <div class="row5"></div>
+      </section>
+    </div>
+    <script type="module">
+      import Calculator from './Calculator.js';
+
+      window.calculator = new Calculator();
+    </script>
+  </body>
+</html>
